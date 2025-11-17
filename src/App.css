@@ -3,7 +3,8 @@
 }
 
 #root {
-  max-width: 480px;
+  width: 100%;
+  max-width: 430px;
   margin: 0 auto;
   min-height: 100vh;
   background: #f6f7fb;
@@ -651,7 +652,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 26px 12px;
+  padding: 24px 10px;
   gap: 18px;
   z-index: 10;
 }
@@ -659,13 +660,13 @@
 .toast {
   background: linear-gradient(90deg, #0f5f6b, #0c4c55);
   color: #e8f1f4;
-  border-radius: 18px;
-  padding: 14px 16px;
+  border-radius: 16px;
+  padding: 12px 16px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  width: min(92%, 440px);
-  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.25);
+  width: min(94%, 380px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
 }
 
 .toast-left {
@@ -695,9 +696,10 @@
 }
 
 .receipt-card {
-  width: min(92%, 440px);
+  width: 92%;
+  max-width: 360px;
   background: #fff;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 20px 16px 0;
   display: flex;
   flex-direction: column;
@@ -716,28 +718,32 @@
 
 .receipt-icon {
   color: #36b24b;
+  display: grid;
+  place-items: center;
 }
 
 .receipt-line {
   font-size: 15px;
   font-weight: 700;
   color: #3d4a55;
+  line-height: 1.8;
 }
 
 .star-line {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  color: #7b828a;
 }
 
 .receipt-btn {
   margin-top: 12px;
   width: 100%;
   border: none;
-  background: #68c0db;
+  background: #4fa6c0;
   color: #fff;
-  padding: 14px 0;
-  border-radius: 0 0 8px 8px;
+  padding: 14px 0 16px;
+  border-radius: 0 0 10px 10px;
   font-weight: 800;
   font-size: 17px;
   cursor: pointer;

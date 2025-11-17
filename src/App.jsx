@@ -362,13 +362,14 @@ const SendMoneyScreen = ({ onBack }) => {
               <CheckCircleIcon />
             </div>
             <div className="receipt-line">
-              <span>{`المستفيد: ${displayPhone}`}</span>&nbsp;
-              <span>{`المبلغ المرسل: MRU ${displayAmount}`}</span>
+              <span>{` المستفيد: ${displayPhone} `}</span>
+              <span>{`المبلغ المرسل :  MRU ${displayAmount}  `}</span>&nbsp;
+              
             </div>
-            <div className="receipt-line">0225111521380341722 : معرف المعامله</div>
+            <div className="receipt-line">  معرف المعامله : 0225111521380341722     </div>
             <div className="receipt-line">{`التاريخ والوقت: ${displayDateTime}`}</div>
             <div className="receipt-line star-line">
-              تعيين كمفضل <StarFilledIcon />
+             <StarFilledIcon /> تعيين كمفضل 
             </div>
             <button
               className="receipt-btn"
